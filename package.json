@@ -23,7 +23,7 @@
   "dependencies": {
     "@elemaudio/core": "^4.0.1",
     "@elemaudio/web-renderer": "^4.0.3",
-    "@polyend/tracker-lib": "^0.1.0",
+    "@polyend/tracker-lib": "^0.1.1",
     "@vueuse/core": "^13.4.0",
     "sortablejs": "^1.15.6",
     "vue": "^3.5.13",
