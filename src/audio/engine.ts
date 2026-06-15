@@ -99,6 +99,7 @@ export default class AudioEngine {
   }
 
   static notesOn(vfs: VFSInstrument, note: number, velocity: number): void {
+    this.resume();
     const nodes = this.nodes || new Map();
     const { path, instrument } = vfs;
 
