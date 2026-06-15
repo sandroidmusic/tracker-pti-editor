@@ -7,7 +7,7 @@
   import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue';
   import VueComp from '@/utils/vuecomp.ts';
   import { Input, NoteMessageEvent, Output, WebMidi } from 'webmidi';
-  import Tracker, { InstrumentData, InstrumentPlayMode } from 'tracker-lib';
+  import Tracker, { InstrumentData, InstrumentPlayMode } from '@polyend/tracker-lib';
   import { downloadFile, requestFiles } from '@/utils/io.ts';
   import { combineAudioFiles, processAudioFile } from '@/utils/helpers.ts';
 

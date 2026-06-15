@@ -1,5 +1,5 @@
 import { el, ElemNode } from '@elemaudio/core';
-import { InstrumentData, GranularType, GranularShape } from 'tracker-lib';
+import { InstrumentData, GranularType, GranularShape } from '@polyend/tracker-lib';
 import AudioUtils from '@/audio/utils/audioutils.ts';
 
 let inc = 0;

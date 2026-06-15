@@ -5,7 +5,7 @@
   //
   //---------------------------------------------------
   import { onMounted, PropType, ref } from 'vue';
-  import { InstrumentData } from 'tracker-lib';
+  import { InstrumentData } from '@polyend/tracker-lib';
   import VueComp from '@/utils/vuecomp.ts';
   import Waveform from '@/components/shared/Waveform.vue';
   import List from '@/components/ui/List.vue';

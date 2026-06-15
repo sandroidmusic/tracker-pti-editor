@@ -1,5 +1,13 @@
 import { el, ElemNode } from '@elemaudio/core';
-import { Automation, InstrumentData, Envelope, LFO, LFO_SHAPE, VOLUME_LFO_RATES, DEFAULT_LFO_RATES } from 'tracker-lib';
+import {
+  Automation,
+  InstrumentData,
+  Envelope,
+  LFO,
+  LFO_SHAPE,
+  VOLUME_LFO_RATES,
+  DEFAULT_LFO_RATES,
+} from '@polyend/tracker-lib';
 
 export default class AudioUtils {
   static createVolumeAutomation(instrument: InstrumentData, gate: ElemNode): ElemNode {

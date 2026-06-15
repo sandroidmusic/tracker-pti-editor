@@ -1,4 +1,4 @@
-import { AudioUtil } from 'tracker-lib';
+import { AudioUtil } from '@polyend/tracker-lib';
 
 export interface CompressionOptions {
   threshold: number;

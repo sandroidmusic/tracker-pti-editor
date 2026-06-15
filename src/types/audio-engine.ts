@@ -1,7 +1,7 @@
 //----------------------------------
 // Interfaces
 //----------------------------------
-import { InstrumentData } from 'tracker-lib';
+import { InstrumentData } from '@polyend/tracker-lib';
 import { ElemNode } from '@elemaudio/core';
 
 export interface VFSInstrument {

@@ -1,4 +1,4 @@
-import { AudioUtil, SAMPLE_RATE } from 'tracker-lib';
+import { AudioUtil, SAMPLE_RATE } from '@polyend/tracker-lib';
 
 let isNormalizing = false;
 

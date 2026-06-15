@@ -7,7 +7,7 @@ import {
   LFO_SHAPE,
   MAX_16BIT,
   SAMPLE_RATE,
-} from 'tracker-lib';
+} from '@polyend/tracker-lib';
 import { WaveFile } from 'wavefile';
 
 //---------------------------------------------------

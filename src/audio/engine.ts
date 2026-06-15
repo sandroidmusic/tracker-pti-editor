@@ -1,5 +1,5 @@
 import { el, ElemNode } from '@elemaudio/core';
-import { InstrumentData, InstrumentPlayMode, SAMPLE_RATE } from 'tracker-lib';
+import { InstrumentData, InstrumentPlayMode, SAMPLE_RATE } from '@polyend/tracker-lib';
 import WebRenderer from '@elemaudio/web-renderer';
 import VFSManager from '@/audio/vfs/manager.ts';
 import { InstrumentNode, PartialInstrumentNode, VFSInstrument } from '@/types/audio-engine.ts';

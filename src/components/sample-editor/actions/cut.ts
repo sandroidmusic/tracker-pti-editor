@@ -1,5 +1,5 @@
 import { SampleSelection } from '@/types/sample-editor.ts';
-import { AudioUtil, SAMPLE_RATE } from 'tracker-lib';
+import { AudioUtil, SAMPLE_RATE } from '@polyend/tracker-lib';
 
 let isCutting = false;
 

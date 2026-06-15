@@ -5,7 +5,7 @@
   //
   //---------------------------------------------------
   import { nextTick, PropType, ref } from 'vue';
-  import { InstrumentData, InstrumentPlayMode, MAX_16BIT } from 'tracker-lib';
+  import { InstrumentData, InstrumentPlayMode, MAX_16BIT } from '@polyend/tracker-lib';
   import Waveform from '@/components/shared/Waveform.vue';
 
   //---------------------------------------------------

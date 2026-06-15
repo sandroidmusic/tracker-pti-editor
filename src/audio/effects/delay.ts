@@ -1,5 +1,5 @@
 import { el, ElemNode } from '@elemaudio/core';
-import { SAMPLE_RATE } from 'tracker-lib';
+import { SAMPLE_RATE } from '@polyend/tracker-lib';
 
 export interface StereoDelayParams {
   key: string;

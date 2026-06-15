@@ -5,7 +5,7 @@
   //
   //---------------------------------------------------
   import { PropType, ref, watch } from 'vue';
-  import { AudioUtil, InstrumentData } from 'tracker-lib';
+  import { AudioUtil, InstrumentData } from '@polyend/tracker-lib';
   import { Output } from 'webmidi';
   import VueComp from '@/utils/vuecomp.ts';
   import ModalRecordingSourceSelect from '@/components/modals/ModalRecordingSourceSelect.vue';

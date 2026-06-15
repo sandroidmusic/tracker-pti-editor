@@ -1,5 +1,5 @@
 import { el, ElemNode } from '@elemaudio/core';
-import { InstrumentData, InstrumentFilterType } from 'tracker-lib';
+import { InstrumentData, InstrumentFilterType } from '@polyend/tracker-lib';
 import { InstrumentNode } from '@/types/audio-engine.ts';
 import AudioUtils from '@/audio/utils/audioutils.ts';
 

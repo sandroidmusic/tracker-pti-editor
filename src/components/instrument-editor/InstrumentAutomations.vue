@@ -5,7 +5,7 @@
   //
   //---------------------------------------------------
   import { computed, PropType, watch } from 'vue';
-  import { InstrumentData } from 'tracker-lib';
+  import { InstrumentData } from '@polyend/tracker-lib';
   import List from '@/components/ui/List.vue';
   import SliderVertical from '@/components/ui/SliderVertical.vue';
 

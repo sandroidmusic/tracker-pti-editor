@@ -1,5 +1,5 @@
 import WebRenderer from '@elemaudio/web-renderer';
-import { InstrumentData } from 'tracker-lib';
+import { InstrumentData } from '@polyend/tracker-lib';
 import { VFSInstrument } from '@/types/audio-engine.ts';
 
 export default class Manager {

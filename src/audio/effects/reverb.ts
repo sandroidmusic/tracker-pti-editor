@@ -1,6 +1,6 @@
 import invariant from 'invariant';
 import { el } from '@elemaudio/core';
-import { SAMPLE_RATE } from 'tracker-lib';
+import { SAMPLE_RATE } from '@polyend/tracker-lib';
 
 // Define a type for the reverb parameters for clarity and type safety.
 export interface ReverbParams {

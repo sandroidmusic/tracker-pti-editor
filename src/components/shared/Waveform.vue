@@ -5,7 +5,7 @@
   //
   //---------------------------------------------------
   import { computed, nextTick, onBeforeUnmount, onMounted, PropType, ref, watch } from 'vue';
-  import { InstrumentData, InstrumentPlayMode, MAX_16BIT, SAMPLE_RATE } from 'tracker-lib';
+  import { InstrumentData, InstrumentPlayMode, MAX_16BIT, SAMPLE_RATE } from '@polyend/tracker-lib';
   import WaveSurfer, { WaveSurferOptions } from 'wavesurfer.js';
   import RegionsPlugin from 'wavesurfer.js/plugins/regions';
   import { frames2seconds, seconds2frames } from '@/utils/helpers.ts';

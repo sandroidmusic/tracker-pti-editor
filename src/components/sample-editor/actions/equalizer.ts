@@ -1,4 +1,4 @@
-import { AudioUtil } from 'tracker-lib';
+import { AudioUtil } from '@polyend/tracker-lib';
 
 // BiquadFilterType is a built-in TS type for the Web Audio API
 export interface EQBand {

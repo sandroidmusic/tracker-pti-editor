@@ -5,7 +5,7 @@
   //
   //---------------------------------------------------
   import { computed, PropType } from 'vue';
-  import { InstrumentData, InstrumentPlayMode } from 'tracker-lib';
+  import { InstrumentData, InstrumentPlayMode } from '@polyend/tracker-lib';
   import {
     formatAutomationShape,
     formatAutomationType,

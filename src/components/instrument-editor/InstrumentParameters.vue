@@ -6,7 +6,7 @@
   //---------------------------------------------------
   import { computed, onMounted, PropType, ref } from 'vue';
   import SliderVertical from '@/components/ui/SliderVertical.vue';
-  import { InstrumentData } from 'tracker-lib';
+  import { InstrumentData } from '@polyend/tracker-lib';
   import List from '@/components/ui/List.vue';
 
   //---------------------------------------------------
