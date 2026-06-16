@@ -8,7 +8,7 @@ Powered by [`tracker-lib`](http://github.com/polyend/tracker-lib) (along with ot
 For a quickish overview, check out this youtube video:
 
 [![Watch the video](https://img.youtube.com/vi/6vzHuB2HkdE/0.jpg)](https://www.youtube.com/watch?v=6vzHuB2HkdE)
-----
+
 
 ## Features
 
@@ -24,7 +24,7 @@ For a quickish overview, check out this youtube video:
 * **Playback Modes:** Support for OneShot, Forward/Backward/Pingpong loops as well as advanced Wavetable and Granular engines.
 * **Play via MIDI or Keyboard:** hook up your MIDI Keyboard or play the sounds directly on the keyboard.
 
-----
+
 
 ## Technical Stack
 
@@ -33,7 +33,6 @@ For a quickish overview, check out this youtube video:
 * **Audio Framework:** Built with [Elementary](https://github.com/elemaudio/elementary)
 * **Waveform Renderer**: [WaveSurfer.js](https://wavesurfer.xyz/) v7 + Regions Plugin
 
-----
 
 ## Getting Started
 
@@ -60,7 +59,7 @@ For a quickish overview, check out this youtube video:
 * `npm run lint`: Runs ESLint on source files.
 * `npm run typecheck`: Validates TypeScript without compiling.
 
-----
+
 
 ## Future Plans
 
