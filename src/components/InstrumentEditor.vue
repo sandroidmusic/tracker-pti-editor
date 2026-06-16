@@ -4,7 +4,7 @@
   //  Imports
   //
   //---------------------------------------------------
-  import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue';
+  import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
   import VueComp from '@/utils/vuecomp.ts';
   import { Input, NoteMessageEvent, Output, WebMidi } from 'webmidi';
   import Tracker, { InstrumentData, InstrumentPlayMode } from '@polyend/tracker-lib';
@@ -119,6 +119,16 @@
   //
   //---------------------------------------------------
   // watch(instrumentData, async (newval, oldval) => {}, { deep: true });
+  watch(midiInput, (newInput, oldInput) => {
+    if (oldInput) {
+      oldInput.removeListener('noteon', handleMidiNoteOn);
+      oldInput.removeListener('noteoff', handleMidiNoteOff);
+    }
+    if (newInput) {
+      newInput.addListener('noteon', handleMidiNoteOn);
+      newInput.addListener('noteoff', handleMidiNoteOff);
+    }
+  });
 
   //---------------------------------------------------
   //
@@ -144,12 +154,6 @@
 
       window.addEventListener(KeyboardEvents.KEY_DOWN, handleKeyboardEvents);
       window.addEventListener(KeyboardEvents.KEY_UP, handleKeyboardEvents);
-
-      const midi = midiInput.value;
-      if (midi) {
-        midi.addListener('noteon', handleMidiNoteOn);
-        midi.addListener('noteoff', handleMidiNoteOff);
-      }
     }
   });
   // onBeforeUpdate(() => {});
