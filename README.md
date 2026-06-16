@@ -4,8 +4,10 @@ A web-based editor for creating, editing, managing, and _playing_ **Polyend Trac
 
 **Live Demo:** https://polyend.sandroid.xyz/instrumented/
 
-For a quickish overview, check out this video:
-[link to youtube video]
+For a quickish overview, check out this youtube video:
+
+[![The Polyend Tracker Ecosystem is opening up](https://img.youtube.com/vi/6vzHuB2HkdE/0.jpg)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=6vzHuB2HkdE
+)
 
 ----
 
