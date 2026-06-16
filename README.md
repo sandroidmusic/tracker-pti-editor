@@ -1,6 +1,7 @@
 # Polyend Tracker Instrument Editor
 
-A web-based editor for creating, editing, managing, and _playing_ **Polyend Tracker Instrument (`.pti`)** files. Powered by [`tracker-lib`](http://github.com/polyend/tracker-lib) (laong with other frameworks).
+A web-based editor for creating, editing, managing, and _playing_ **Polyend Tracker Instrument (`.pti`)** files.\
+Powered by [`tracker-lib`](http://github.com/polyend/tracker-lib) (along with other frameworks).
 
 **Live Demo:** https://polyend.sandroid.xyz/instrumented/
 
