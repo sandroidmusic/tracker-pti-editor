@@ -294,8 +294,10 @@
       const windowCount = instrument.sample.wavetable.windowCount + 1;
       const currentWindow = instrument.wavetableCurrentWindow;
 
-      ws.zoom(ws.getWidth() / (windowSize / 44100));
-      ws.seekTo((currentWindow * (duration / windowCount)) / duration);
+      if (ws.getDecodedData()) {
+        ws.zoom(ws.getWidth() / (windowSize / 44100));
+        ws.seekTo((currentWindow * (duration / windowCount)) / duration);
+      }
     }
   }
 
