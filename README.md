@@ -60,10 +60,22 @@ For a quickish overview, check out this youtube video:
 * `npm run typecheck`: Validates TypeScript without compiling.
 
 
+## Known issues & Unfinished things
 
-## Future Plans
+* Unfinished parts of the Audio-Engine
+   * The granular engine is an approximation of the actual engine on the device and may not behave as the hardware does
+   * The wavetable engine could require some love as well
+   * The reverb is an approximation and requires some more finetuning
+   * The delay is an approximation and requires some more finetuning
+   * Do another sweep through the entire audio engine to sound closer to the hardware
+   * Audio volumes are still a bit all over the place
+* Auto-Sampling
+   * Some work had started on enabling auto-samping but never concluded
+
+## Further developement & Future Plans
 
 I doubt i'll have time to meaningfully continue development on this going forward. It was meant as an example of what can be done with the [`tracker-lib`](http://github.com/polyend/tracker-lib). If anyone wants to continue development, I will happily accept PRs or add you as a contributor to this repository.
+
 
 ## License
 
