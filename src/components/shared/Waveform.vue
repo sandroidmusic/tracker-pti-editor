@@ -265,7 +265,10 @@
     if (!props.editorMode) {
       updateRegions();
       if (props.instrumentData?.playmode !== InstrumentPlayMode.Wavetable) {
-        wsInstance.value?.zoom(0);
+        const ws = wsInstance?.value;
+        if (ws && ws.getDecodedData()) {
+          wsInstance.value?.zoom(0);
+        }
         zoom.value = 0;
       } else {
         focusOnWavetableWindow();
@@ -378,7 +381,7 @@
   function handleMouseWheel(evt: WheelEvent) {
     if (!evt.shiftKey) {
       const ws = wsInstance.value;
-      if (ws) {
+      if (ws && ws.getDecodedData()) {
         const increment = evt.deltaY;
         let value = zoom.value + increment;
         if (value < minZoom) {
